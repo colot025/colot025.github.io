@@ -1,0 +1,94 @@
+body {
+    font-family: Verdana;
+    background-color: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin: 5px;
+}
+
+.box {
+    border: 1px solid #dedfe0;
+    border-radius: 2px;
+}
+
+#top-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#top-inner-container {
+    position: relative;
+    display: flex;
+}
+
+#search-button {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#search-box {
+    border-radius: 2px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #dfe1e6;
+    margin-top: 5px;
+    width: 800px;
+    cursor: text;
+}
+
+#banner {
+    background-color: #3cb572;
+    flex-direction: row;
+    padding: 10px;
+    color: #FFFFFF;
+    justify-content: center;
+    display: none;
+    animation-name: banner-animation;
+    animation-duration: 2s;
+}
+
+.bottom-container {
+    width: 840px;
+}
+
+.bottom-box {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    width: 395px;
+    vertical-align:top;
+}
+
+.movie-title {
+    font-size: small;
+    color: #84858a;
+}
+
+.li-function-button {
+    border: 1px solid #dfe1e6;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+@keyframes banner-animation {
+    from {background-color: #FFFFFF;}
+    to {background-color: #3cb572;}
+}

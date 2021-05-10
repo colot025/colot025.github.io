@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopify Shoppies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+<h1>The Shoppies</h1>
+
+<div class="top-container box" id="top-box">
+    <span>Movie Title</span>
+    <div id="top-inner-container">
+        <input type="text" id="search-box" placeholder="Give it a go . . .">
+        <i class="fas fa-search" id="search-button"></i>
+    </div>
+</div>
+<div class="top-container box" id="banner">
+    <h3>Maximum nominations reached</h3>
+</div>
+<div class="bottom-container" id="results-nominations">
+    <div class="box bottom-box">
+        <p>Results for <span id="search-term-title"></span></p>
+        <ul id="search-results-list"></ul>
+    </div>
+    <div class="box bottom-box">
+        <p>Nominations</p>
+        <ul id="nominations-list"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
